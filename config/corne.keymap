@@ -21,10 +21,10 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         display-name = "UrsBase";
                         bindings = <
-   &kp Y     &kp Q           &kp W &kp E      &kp R         &kp T        &kp DE_Z    &kp U      &kp I     &kp O   &kp P    &kp DE_U_UMLAUT
-   &kp Z     &kp A           &kp S &kp D      &kp F         &kp G        &kp H       &kp J      &kp K     &kp L   &kp SEMI &kp DE_A_UMLAUT
-   &kp LSHFT &mt LSHIFT DE_Y &kp X &kp C      &kp V         &kp B        &kp N       &kp M      &kp COMMA &kp DOT &kp FSLH &kp DE_SZ
-                                   &lt 3 ESC  &lt 1 SPACE   &lt 2 TAB    &lt 2 BKSP  &lt 1 RET  &lt 3 DEL
+   &kp DE_LT &kp Q            &kp W        &kp E       &kp R        &kp T        &kp DE_Z    &kp U        &kp I        &kp O         &kp P            &kp DE_U_UMLAUT 
+   &kp TAB   &kp A            &hml LCTRL S &hml LALT D &hml LGUI F  &kp G        &kp H       &hml LGUI J  &hml LALT K  &hml LCTRL L  &kp SEMI         &kp DE_A_UMLAUT
+   &kp GRAVE &hml LSHIFT DE_Y &kp X        &kp C       &kp V        &kp B        &kp N       &kp M        &kp COMMA    &kp DOT       &hml RSHFT FSLH  &kp DE_SZ
+                                           &lt 3 ESC   &lt 1 SPACE  &lt 2 TAB    &lt 2 BKSP  &lt 1 RET    &lt 3 DEL
                         >;
                 };
                 navi {

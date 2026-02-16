@@ -36,8 +36,8 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         display-name = "Navi";
                         bindings = <
-   &kp TAB    &none        &none        &none        &none        &none          &none    &kp PG_DN &kp UP   &kp PG_UP  &kp BKSP   &kp BKSP
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp HOME &kp LEFT  &kp DOWN &kp RIGHT  &kp END    &kp END
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &none    &kp PG_DN &kp UP   &kp PG_UP  &kp BKSP   &kp BKSP
+   &kp TAB    &none        &kp LCTRL    &kp LALT     &kp LGUI     &none          &kp HOME &kp LEFT  &kp DOWN &kp RIGHT  &kp END    &kp END
    &kp LSHFT  &kp LSHFT    &none        &none        &none        &none          &kp TAB  &none     &none    &none      &kp RSHFT  &kp RSHFT
                           	        &trans       &trans       &trans         &trans   &trans    &trans
                         >;
@@ -51,10 +51,10 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         display-name = "NumPad";
                         bindings = <
-   &kp F1    &kp F2   &kp F3 &kp F4   &kp F5      &kp F6    &kp DE_LT   &kp N7   &kp N8  &kp N9  &kp DE_SLASH &kp DE_STAR
-   &kp F7    &kp F8   &kp F9 &kp F10  &kp F11     &kp F12   &kp N0      &kp N4   &kp N5  &kp N6  &kp COMMA    &kp DE_MINUS
-   &kp LSHFT &none    &none  &none    &none       &none     &kp GRAVE   &kp N1   &kp N2  &kp N3  &kp DOT      &kp DE_PLUS
-                    	     &trans   &kp SPACE   &trans    &trans      &kp RET  &trans
+   &kp F1    &kp F2   &kp F3        &kp F4        &kp F5         &kp F6      &kp DE_LT &kp N7   &kp N8  &kp N9  &kp DE_SLASH &kp DE_STAR
+   &kp F7    &kp F8   &hml LCTRL F9 &hml LALT F10 &hml LGUI F11  &kp F12     &kp N0    &kp N4   &kp N5  &kp N6  &kp COMMA    &kp DE_MINUS
+   &kp LSHFT &none    &none         &none         &none          &none       &kp GRAVE &kp N1   &kp N2  &kp N3  &kp DOT      &kp DE_PLUS
+                    	            &trans        &kp SPACE      &trans      &trans    &kp RET  &trans
                         >;
                 };
 

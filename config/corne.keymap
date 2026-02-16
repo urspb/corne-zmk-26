@@ -38,7 +38,7 @@
                         bindings = <
    &kp TAB    &none        &none        &none        &none        &none          &none    &kp PG_DN &kp UP   &kp PG_UP  &kp BKSP   &kp BKSP
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp HOME &kp LEFT  &kp DOWN &kp RIGHT  &kp END    &kp END
-   &kp LSHFT  &kp LSHFT    &none        &none        &none        &none          &ks TAB  &none     &none    &none      &kp RSHFT  &kp RSHFT
+   &kp LSHFT  &kp LSHFT    &none        &none        &none        &none          &kP TAB  &none     &none    &none      &kp RSHFT  &kp RSHFT
                           	        &trans       &trans       &trans         &trans   &trans    &trans
                         >;
                 };

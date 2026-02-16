@@ -10,7 +10,7 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <19 20 21 34>; // List of keys on the right side of the keyboard
+            hold-trigger-key-positions = <19 20 21>; // List of keys on the right side of the keyboard
             hold-trigger-on-release;
         };
         hmr: home_row_mod_right {
@@ -21,7 +21,7 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions =  <14 15 16 25>; // List of keys on the left side of the keyboard
+            hold-trigger-key-positions =  <14 15 16>; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
         };
     };

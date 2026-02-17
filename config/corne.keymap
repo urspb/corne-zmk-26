@@ -51,7 +51,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         display-name = "NumPad";
                         bindings = <
-   &kp F1    &kp F2   &kp F3        &kp F4        &kp F5         &kp F6      &kp DE_LT &kp N7   &kp N8  &kp N9  &kp DE_SLASH &kp DE_STAR
+   &kp F1    &kp F2   &kp F3        &kp F4        &kp F5         &kp F6      &kp DE_LT &kp N7   &kp N8  &kp N9  &kp DE_POUND &kp DE_SLASH
    &kp F7    &kp F8   &hml LCTRL F9 &hml LALT F10 &hml LGUI F11  &kp F12     &kp N0    &kp N4   &kp N5  &kp N6  &kp COMMA    &kp DE_MINUS
    &kp LSHFT &none    &none         &none         &none          &none       &kp GRAVE &kp N1   &kp N2  &kp N3  &kp DOT      &kp DE_PLUS
                     	            &trans        &kp SPACE      &trans      &trans    &kp RET  &trans
@@ -66,10 +66,10 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         display-name = "Brackets";
                         bindings = <
-   &kp  TAB  &kp EXCL      &kp AT      &kp HASH      &kp DLLR    &kp PRCNT      &kp DE_ACUTE &kp DE_SLASH &kp RA(N7)    &kp RA(LS(N7)) &kp LS(GRAVE)    &kp BSPC
-   &kp LCTRL &kp LS(GRAVE) &kp DE_EXCL &kp DE_POUND  &trans      &trans         &kp DE_POUND &kp DE_LBKT  &kp DE_LPAR   &kp DE_RPAR    &kp DE_RBKT      &kp LS(N2)
-   &kp LSHFT &kp RA(N5)    &kp RA(N6)  &kp LS(GRAVE) &kp DE_AMPS &kp DE_PRCNT   &kp RA(N)    &kp GRAVE    &kp RA(N5)    &kp RA(N6)     &kp LS(GRAVE)    &kp LSHFT
-                    	               &trans        &trans      &trans         &trans       &trans       &trans
+   &kp  TAB  &none     &none         &none         &none       &none      &kp DE_ACUTE &kp DE_SLASH &kp RA(N7)    &kp RA(LS(N7)) &kp LS(DE_ACUTE) &kp BSPC
+   &kp TAB   &none     &kp LCTRL     &kp LALT      &kp LGUI    &none      &kp DE_POUND &kp DE_LBKT  &kp DE_LPAR   &kp DE_RPAR    &kp DE_RBKT      &kp LS(N2)
+   &kp LSHFT &kp LSHFT &none         &none         &none       &none      &kp RA(N)    &kp GRAVE    &kp RA(N5)    &kp RA(N6)     &kp LS(GRAVE)    &kp LSHFT
+                    	             &trans        &trans      &trans     &trans       &trans       &trans
                         >;
                 };
 

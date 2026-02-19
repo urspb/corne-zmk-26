@@ -1,0 +1,9 @@
+/ {
+    combos {
+        gui_tab_repeat: gui_tab_repeat {
+            timeout-ms = <30>;
+            positions = <16 38>;
+            key-press = <&gui_tab_macro>;
+        };
+    };
+};

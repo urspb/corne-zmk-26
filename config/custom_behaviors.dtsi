@@ -26,3 +26,25 @@
         };
     };
 };
+
+/ {
+    macros {
+        gui_tab_macro: gui_tab_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+
+            // TAB einmal senden + Repeat gedrückt halten
+            bindings = <
+                &macro_tap   &kp TAB
+                &macro_press &key_repeat
+            >;
+
+            // OPTIONAL (falls &key_repeat "klebt"):
+            // bindings = <
+            //     &macro_tap   &kp TAB
+            //     &macro_press &key_repeat
+            //     &macro_release &key_repeat
+            // >;
+        };
+    };
+};
